@@ -1,0 +1,106 @@
+@import 'base.css';
+
+/*  */
+
+.logPg{
+    width: 50%;
+}
+
+#loginInfo {
+   display: flex;
+   justify-content: center;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 20px;
+}
+
+#remember {
+    display: flex;
+    font-size: 12px;
+}
+
+#remember p{
+    padding-left: 3px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+
+/* home page */
+
+.blocks {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.modle {
+    min-width: 300px;
+    width: auto;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 50px;
+    padding: 35px;
+}
+
+#resume img{
+    margin-top: 50px;
+    width: 655px;
+    height: 90%;
+}
+
+#stats {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+#connections{
+    margin-right: 25px;
+}
+
+#pfp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pfpPg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#rememberMe {
+    margin-right: 3px;
+}
+/* -------------------- */
+
+li img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
